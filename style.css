@@ -1,0 +1,72 @@
+:root {
+    --branco-principal: #ffffff ;
+    --cinza-secundario: #c0c0c0 ;
+    --botao-azul: #167bf7 ;
+    --cor-de-fundo: #1c3035 ;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    background-image: url(/fotos/tela\ de\ fundo\ 3.png);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0 0 27%;
+    margin-bottom: 5%;
+    color: var(--branco-principal);
+    font-size: 55px;
+    font-weight: bold;
+    
+    
+}
+.imagem_D {
+    width: 24.8%;
+    height: 400px;
+    border-radius: 50%;
+
+}
+
+.container__primario {
+    margin: 5% 0 10% 0;
+}
+
+.container__secundario {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 5% 0 20% 0;
+   
+    
+}
+
+.imagem_D_sec {
+    width: 25%;
+    border-radius: 10%;
+}
+
+.paragrafo_secundario {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 20% 10px 20%;
+    display: block;
+    background-color: var(--cor-de-fundo);
+    
+}
+
+.paragrafo_secundario2 {
+    font-size: 30px;    
+    text-align: center;
+    margin: 0 20% 0 20%;
+    display: block;
+    background-color: var(--cor-de-fundo);
+}
